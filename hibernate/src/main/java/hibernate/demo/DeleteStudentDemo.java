@@ -33,8 +33,8 @@ public class DeleteStudentDemo {
             session.delete(myStudent);
 
             // delete student, alternative approach
-            System.out.println("Deleting student id-2");
-            session.createQuery("delete from Student where id=2")
+            System.out.println("Deleting student id-5");
+            session.createQuery("delete from Student where id=5")
                     .executeUpdate();
 
             // commit the transaction
